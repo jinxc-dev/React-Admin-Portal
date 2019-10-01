@@ -1,0 +1,155 @@
+{
+  "formId": "2",
+  "formTitle": "FNOL document",
+  "clientUniqueInfoMatrixPattern": "THREE_COLUMN",
+  "rmiFormCheckboxFieldList": [
+    {
+      "formFieldId": "067e97cb-6e53-4ebb-b65b-a0393698f49a",
+      "formFieldDisplayName": "Checkbox001",
+      "formFieldCode": "ALLOW_1",
+      "formFieldValue": "",
+      "toolTipForField": "This is a checkbox",
+      "rowLocation": "2",
+      "columnLocation": "1",
+      "isDisabledByDefault": true,
+      "isDisplayHidden": false,
+      "isRequired": false,
+      "isDefaultSelected": true
+    }
+  ],
+  "rmiFormMultiSelectFieldList": [],
+  "rmiFormSingleSelectFieldList": [
+    {
+      "formFieldId": "d686daa9-1d7d-451a-9a82-2c57c9b320da",
+      "formFieldDisplayName": "SingleSelect001",
+      "formFieldCode": "ALLOW_Single Select",
+      "formFieldValue": "",
+      "toolTipForField": "This is a single select",
+      "rowLocation": "2",
+      "columnLocation": "3",
+      "isDisabledByDefault": true,
+      "isDisplayHidden": false,
+      "isRequired": false,
+      "possibleValues": {
+        "SECOND_VALUE": "Second Value",
+        "FIRST_VALUE": "First Value"
+      },
+      "defaultSelectedCode": "SECOND_VALUE",
+      "defaultString": ""
+    }
+  ],
+  "rmiFormRadioFieldList": [
+    {
+      "formFieldId": "d8a8bb28-62b3-4072-a768-14159705faf9",
+      "formFieldDisplayName": "Radio001",
+      "formFieldCode": "ALLOW_radio",
+      "formFieldValue": "",
+      "toolTipForField": "This is a radio button",
+      "rowLocation": "2",
+      "columnLocation": "2",
+      "isDisabledByDefault": true,
+      "isDisplayHidden": false,
+      "isRequired": false,
+      "isDefaultSelected": true
+    }
+  ],
+  "rmiFormTextieldList": [
+    {
+      "formFieldId": "1",
+      "formFieldDisplayName": "",
+      "formFieldCode": "CLAIM_NUMBER",
+      "formFieldValue": "",
+      "toolTipForField": "Please enter your claim number.",
+      "rowLocation": "1",
+      "columnLocation": "1",
+      "isDisabledByDefault": true,
+      "isDisplayHidden": false,
+      "isRequired": true,
+      "defaultValueInsideTextBox": "Enter Claim Number",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    {
+      "formFieldId": "2",
+      "formFieldDisplayName": "",
+      "formFieldCode": "POLICY_NUMBER",
+      "formFieldValue": "2222222222",
+      "toolTipForField": "Please enter your policy number.",
+      "rowLocation": "1",
+      "columnLocation": "2",
+      "isDisabledByDefault": true,
+      "isDisplayHidden": false,
+      "isRequired": false,
+      "defaultValueInsideTextBox": "Enter Policy Number",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    {
+      "formFieldId": "3",
+      "formFieldDisplayName": "",
+      "formFieldCode": "FIRST_NAME",
+      "formFieldValue": "John",
+      "toolTipForField": "Please enter your first name here.",
+      "rowLocation": "1",
+      "columnLocation": "3",
+      "isDisabledByDefault": true,
+      "isDisplayHidden": false,
+      "isRequired": false,
+      "defaultValueInsideTextBox": "Enter First Number",
+      "minLength": 1,
+      "maxLength": 100
+    }
+  ],
+  "rmiFormTextAreaFieldList": [],
+  "cssFullName": "CUST_001.css",
+  "logoUrl": "",
+  "isDocumentGroupApplicable": true,
+  "rmiDocumentGroupList": [
+    {
+      "rmiDocumentGroupId": "",
+      "groupDisplayName": "Any FNOL Information",
+      "rmiDocuments": {
+        "REQUIRED": {
+          "rmiDocumentId": "73e05eec-c4bf-4ef9-a84d-f344e80dfb62",
+          "displayName": "Accident Video",
+          "rmiDocumentCode": "ACCIDENT_VIDEO",
+          "rmiDocumentType": "VIDEO",
+          "expiryDate": null
+        }
+      },
+      "businessUnitCode": "CAS",
+      "businessSubUnitList": [
+        "FNOL Group"
+      ]
+    },
+    {
+      "rmiDocumentGroupId": "",
+      "groupDisplayName": "Any Claim Information",
+      "rmiDocuments": {
+        "REQUIRED": {
+          "rmiDocumentId": "4eba5e03-2aef-49e5-9be4-07b08bb90384",
+          "displayName": "Insurance Video",
+          "rmiDocumentCode": "INSURANCE_VIDEO",
+          "rmiDocumentType": "VIDEO",
+          "expiryDate": null
+        }
+      },
+      "businessUnitCode": "CAS",
+      "businessSubUnitList": [
+        "Claim Group 002"
+      ]
+    }
+  ],
+  "rmiDocumentList": [],
+  "isEmailEnabled": true,
+  "isTextEnabled": true,
+  "isMobileAppEnabled": true,
+  "emailChannel": {
+    "emailAddress": "",
+    "isEmailVerified": false
+  },
+  "textChannel": {
+    "phoneNumber": "(123)465-78-92-21",
+    "isNumberVerified": true
+  }
+}

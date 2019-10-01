@@ -1,0 +1,18 @@
+[
+    {
+        "claimNumber":"C-2323-44-2323",
+        "policyNumber":"P-1234-23-23",
+        "firstName":"John Lee",
+        "requestDate":"1/12/2018",
+        "status":"Complete",
+        "expiryDate":"12/12/2018"
+    },
+    {
+        "claimNumber":"C-4355-45-535-22-",
+        "policyNumber":"P-343-34-23-24-44",
+        "firstName":"Kathy Simson",
+        "requestDate":"1/12/2018",
+        "status":"Complete",
+        "expiryDate":"12/12/2018"
+    }
+]

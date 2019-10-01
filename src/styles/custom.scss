@@ -1,0 +1,165 @@
+.fn-success{
+    color: $success!important;
+}
+.fn-danger{
+    color: $danger!important;
+}
+.btn_primary{
+    background-color: $primary;
+    border-color: $primary;
+    color: white;
+    margin-right: 5px;
+}
+.btn_success{
+    background-color: $success;
+    border-color: $success;
+    color: white;
+    margin-right: 5px;
+}
+.btn_info{
+    background-color: $info;
+    border-color: $info;
+    color: white;
+    margin-right: 5px;
+}
+.btn_warning{
+    background-color: $warning;
+    border-color: $warning;
+    color: white;
+    margin-right: 5px;
+}
+.btn_danger{
+    background-color: $danger;
+    border-color: $danger;
+    color: white;
+    margin-right: 5px;
+}
+.btn_muted{
+    background-color: $gray-light;
+    border-color: $gray-light;
+    color: white;
+    margin-right: 5px;
+}
+
+.k-grid .k-grid-content tbody .custom-cell{
+    border-left-color: lightgrey;
+    border-collapse: collapse;
+}
+
+.k-grid .k-grid-content tbody .custom-cell.column_2{
+    border-left-width: 1px!important;
+}
+
+.c-input-icon {
+    position: relative;
+    >span{
+        width: 100%;
+    }
+    span input{
+        width: 100%!important;
+        min-width: 128px;
+        padding-right: 26px;
+    }
+    .icon{
+        position: absolute;
+        cursor: pointer;
+        right: 0px;
+        bottom: 0px;
+        padding: 5px 8px;
+        text-align: right;
+        i{
+            font-size: 24px;
+            
+        }
+    }
+}
+
+.c-i-success{
+    color: $success;
+}
+.c-i-warning{
+    color: $warning;
+}
+.c-i-danger{
+    color: $danger;
+}
+.c-i-muted{
+    color: #c7c7c7;
+}
+.popup-content {
+    padding: 10px 20px;
+    color: #787878;
+    background-color: #fcf7f8;
+    border: 1px solid rgba(0,0,0,.05);
+}
+
+.c-frame{
+    border: 2px solid #f3f3f3;
+    border-radius: 8px;
+    padding: 16px 20px;
+    position: relative;
+    .c-frame-header{
+        position: absolute;
+        top: -20px;
+        font-size: 22px;
+        background-color: white;
+        padding: 0px 5px;
+        color: #9c9c9c;
+    }
+}
+
+
+.c-stacked-btn-group{
+    position: fixed;
+    display: none;
+    bottom: 26px;
+    right: 26px;
+    z-index: 800;
+    .c-fixed-action-btn{
+        border-radius: 50%;
+        margin: 0px;
+        padding: 18px 18px;
+        display: block;
+        i{
+            font-size: 20px;
+        }
+    }
+    >ul{
+        list-style-type: none;
+        padding: 0px;
+        text-align: center;
+        margin: 0px;
+        >li{
+            line-height: 0px;
+            .c-action-btn{
+                padding: 12px 12px;
+                margin: 0px 0px 8px 0px;
+                border-radius: 50%;
+                // display: block;
+            }
+        }
+    }
+}
+.c-stacked-btn-group.active{
+    display: block;
+}
+.custom-animation-enter {
+    transform: scale(0.3);
+    opacity: 0;
+    transform-origin: bottom;
+    transition: transform 320ms ease-in, opacity 180ms ease-in;
+}
+.custom-animation-enter-active {
+    transform: scale(1);
+    opacity: 1;
+}
+.custom-animation-exit {
+    transform: scale(1);
+    opacity: 1;
+    transform-origin: bottom;
+    transition: transform 300ms ease-in, opacity 300ms ease-in;
+}
+.custom-animation-exit-active {
+    transform: scale(0.3);
+    opacity: 0;
+}
