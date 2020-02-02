@@ -4,3 +4,5 @@
 ### Installation
 - npm install
 - npm run start
+
+$skype: live:penkovaen
